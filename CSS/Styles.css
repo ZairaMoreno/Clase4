@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo Menú */
+html, body {
+  font-family: courier;
+  line-height: 1.5em;
+ background: PaleGreen;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+/* Clases Generales */
+
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+ /* Navbar */
+ #navbar {
+   background: MediumSeaGreen;
+   color: White;
+   overflow: auto;
+ }
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: left;
+}
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  border-color: DarkOliveGreen;
+  background: #FFF;
+  color: DarkOliveGreen;
+}
+
+.text-primary {
+  color:#5BBF21;
+}
+
+.lead {
+  font-size: 20px; /*--tamaño letra*/
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #5BBF21;
+}
+
+#welcome {
+  background: url('/Imagenes/be2.jpg') no-repeat center center/cover;
+  height: 350px;
+
+}
+
+#welcome .welcome-content {
+  color: DarkGreen;
+  text-align: left;
+  padding-top: 350px;
+}
+
+#welcome .welcome-content h1 {
+  font-size: 30px;
+  line-height: 1.2em;
+  text-align: center;
+
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #215b33;
+}
+
+.bg-dark {
+  background: #215b33;
+  color: Khaki;
+}
+
+.box {
+  float: left;
+  width: 25%;
+  padding: 39px;
+  text-align: center;
+  border: 3px white dotted;
+  background: MediumSeaGreen;
+}
+
+/* PASO 13---*/
+
+.clr {
+  clear: both;
+}
+
+#main-footer {
+  text-align: center;
+  background: #468d5c;
+  color: #fff;
+  padding: 5px;
+}
+
+
+#about {
+  background: url('/Imagenes/aguacate.jpg') no-repeat center center/cover;
+  height: 500px; /*tamaños del fondo*/
+}
+
+#about .container
+{
+padding-top: 90px;
+
+  }
+
+  #about .about-info {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 100px;
+  padding: 20px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  opacity: .65;
+  background: green;
+}
+
+#about .about-info h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#about .about-info p {
+  padding-bottom: 20px;
+  line-height: 1em;}
+
+#contact-form .container
+{
+padding-top: 30px;
+
+}
+
+#contact-form h1, p
+{
+  text-align: center;
+  }
+
+  #contact-form .form-group {
+    margin-bottom: 5px;
+  }
+
+  #contact-form .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 5px;
+
+  }
+
+  #contact-form textarea {
+    height: 100px;
+  }
+
+  #contact-form input:focus,
+  #contact-form textarea:focus {
+    outline: none;
+    border-color: #5BBF21;
+}
+
+.py-3 { padding: 30px 0; }
+
+#Exercise-info
+{
+  background: PaleGreen;
+  color: SeaGreen;
+}
+#Exercise-info p
+{
+  text-align: justify;
+}
+    #Exercise-info .info-right {
+      float: right;
+      width: 50%;
+      min-height: 100%;
+    }
+
+    #Exercise-info .info-left img {
+      display: block;
+      margin: auto;
+      width: 30%;
+      border-radius: 30%;
+    }
+
+
+    #Exercise-info .info-right {
+      float: right;
+      width: 50%;
+      min-height: 100%;
+}
+
+
+#ejercicios {
+  height: 2500px;
+  background: url('/Imagenes/fit3.png') repeat center ;
+  padding-top: 100px;
+}
+
+#ejercicios h3
+{
+  font-size: 50px;
+  text-align: center;
+  color:SeaGreen;
+  }
+
+  #ejercicios p
+{
+ text-align: justify;
+}
+
+#ejercicios h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#ejercicios .container  {
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.7;
+  background: LightGreen;
+}
+/* border-radius para obtener el efecto redondo de las imágenes */
+#ejercicios .info-center img {
+  width: 300px;
+  float: auto;
+  margin-right: 20px;
+  border-radius: 40%;
+
+}
+
+#tips
+{
+background: white;
+}
+
+#tips .info-tips {
+  float: right;
+  width: 70%;
+  min-height: 100%;
+  text-align: justify;
+padding-top: 80px;
+}
+
+#tips .info-left img {
+  display: block;
+  margin: auto;
+  width: 27%;
+  border-radius: 10%;
+}
+
+
+#tips .info- {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+
+#features .box1 {
+  float: left;
+  width: 33.33%;
+  padding: 70px;
+  text-align: center;
+  border: 3px white dotted;
+  font-size: 15px;
+  background: SeaGreen;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
