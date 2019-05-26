@@ -94,7 +94,7 @@ p {
 }
 
 #welcome {
-  background: url('/Imagenes/be2.jpg') no-repeat center center/cover;
+  background: url('../Imagenes/be2.jpg') no-repeat center center/cover;
   height: 350px;
 
 }
@@ -145,7 +145,7 @@ p {
 
 
 #about {
-  background: url('/Imagenes/aguacate.jpg') no-repeat center center/cover;
+  background: url('../Imagenes/aguacate.jpg') no-repeat center center/cover;
   height: 500px; /*tamaños del fondo*/
 }
 
@@ -246,7 +246,7 @@ padding-top: 30px;
 
 #ejercicios {
   height: 2500px;
-  background: url('/Imagenes/fit3.png') repeat center ;
+  background: url('../Imagenes/fit3.png') repeat center ;
   padding-top: 100px;
 }
 
